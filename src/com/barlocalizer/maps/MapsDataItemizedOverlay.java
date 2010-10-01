@@ -23,7 +23,7 @@ public class MapsDataItemizedOverlay extends ItemizedOverlay<OverlayItem> {
     private ArrayList<OverlayItem> mOverlays = new ArrayList<OverlayItem>();
 
     /** Activity de l'application Android. */
-    private Activity m_Activity = null;
+    private Activity mActivity = null;
 
     /**
      * Constructeur.
@@ -35,7 +35,7 @@ public class MapsDataItemizedOverlay extends ItemizedOverlay<OverlayItem> {
      */
     public MapsDataItemizedOverlay(final Drawable defaultMarker, final Activity activity) {
         super(boundCenter(defaultMarker));
-        m_Activity = activity;
+        mActivity = activity;
     }
 
     /**
@@ -62,7 +62,7 @@ public class MapsDataItemizedOverlay extends ItemizedOverlay<OverlayItem> {
     @Override
     protected boolean onTap(final int index) {
         OverlayItem item = mOverlays.get(index);
-        AlertDialog.Builder builder = new AlertDialog.Builder(m_Activity);
+        AlertDialog.Builder builder = new AlertDialog.Builder(mActivity);
         builder.setTitle(item.getTitle());
         builder.setMessage(item.getSnippet());
         builder.setPositiveButton(R.string.geocalbutton, new DialogInterface.OnClickListener() {
