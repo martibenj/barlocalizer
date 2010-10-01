@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="application_name">BarLocalizer</string>
+	<string name="countdown_text">Temps restant avant la prochaine pinte :</string>
+	<string name="heureDepartPourCallaghan">Heure de Départ pour le Callaghan</string>
+	<string name="heureFinHappy">Heure de fin de Happy Hours</string>
+	
+	<!-- Texte des GeoPoints -->
+	<string name="geocaltitle">Hum la bonne bière</string>
+	<string name="geocalsnippet">Hey! Mais c\'est quoi cet embargo sur les chips?!</string>
+	<string name="geocalbutton">Une autre bière!</string>
+	
+	<!-- Texte de la notification -->
+	<string name="notificationtiny">Callaghan dans moins de 30 min</string>
+	<string name="notificationexpended">Bon...va pas falloir tarder!</string>
+	
+	<!-- Texte des Cheers -->
+	<string name="cheers1">Aller courage. L\'heure de la pinte approche...</string>
+    <string name="cheers2">Hum? Sens-tu la douce odeur des chips trop grasses?</string>
+    <string name="cheers3">Vas-y maintenant..Sûr qu\'il reste une table libre...</string>
+    <string name="cheers4">Un clin d\'oeil à la serveuse = une pinte offerte (enfin c\'est ce qu\'on dit...)</string>
+    <string name="cheers5">Une main sur la fesse gauche de la serveuse = une baffe offerte</string>
+    <string name="cheers6">Si tu t\'appelles \"Momo\", adresse toi à UN serveur, ça marchera mieux...</string>
+	
+</resources>
