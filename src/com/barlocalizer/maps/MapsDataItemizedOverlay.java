@@ -22,7 +22,7 @@ public class MapsDataItemizedOverlay extends ItemizedOverlay<OverlayItem> {
     /** Liste de point de la Map. */
     private ArrayList<OverlayItem> mOverlays = new ArrayList<OverlayItem>();
 
-    /** Activity de l'application android. */
+    /** Activity de l'application Android. */
     private Activity mActivity = null;
 
     /**
